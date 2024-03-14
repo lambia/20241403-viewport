@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.container .inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    font-size: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+#foglie {
+    background-color: #999;
+}
+
+#foglie .inner {
+    background-image: url(../img/1.jpg);
+}
+
+#collina {
+    background-color: #333;
+}
+
+#collina .inner {
+    background-image: url(../img/2.jpg);
+}
+
+#audi {
+    background-color: crimson;
+}
+
+#audi .inner {
+    background-image: url(../img/3.jpg);
+}
+
+/* visto in live coding: muovi un <img> come se fosse un background */
+/*
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.scrollabile {
+    height: 10rem;
+    background-color: orange;
+    padding: 1rem;
+    overflow: auto;
+    width: 45%;
+    margin: 3rem auto;
+}
